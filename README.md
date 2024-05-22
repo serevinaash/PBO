@@ -11,7 +11,7 @@ Misalkan kita punya kelas Shape yang merupakan superclass untuk berbagai bentuk 
 Penjelasan:
 Shape adalah kelas abstrak yang mendefinisikan metode area().
 Rectangle dan Circle adalah kelas konkret yang mengimplementasikan metode area() dari kelas Shape.
-AreaCalculator menghitung total area dari berbagai bentuk. Jika kita ingin menambahkan bentuk baru (misalnya Triangle), kita hanya perlu membuat kelas baru yang meng-extend Shape tanpa mengubah kode AreaCalculator
+AreaCalculator menghitung total area dari berbagai bentuk. Jika kita ingin menambahkan bentuk baru (misalnya Triangle), kita hanya perlu membuat kelas baru yang meng-extend Shape tanpa mengubah kode AreaCalculator </br>
 <b>2. Liskov Substitution Principle (LSP)</b>
 Untuk memastikan bahwa subclass dapat menggantikan superclass tanpa mengubah perilaku yang diharapkan, kita bisa membuat subclass yang menggantikan superclass dalam program.
 Penjelasan:
